@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="./src/CSS/style.css" />
+    <link rel="icon" href="./src/images/cat-astronaut-animate.svg">
+  </head>
+
+  <body>
+    <div class="main-login">
+      <div class="left-login">
+        <h1>Faça login <br/>E entre para o nosso time</h1>
+        <img src="./src/images/cat-astronaut-animate.svg" alt="Cat animation" class="left-login-image">
+      </div>
+
+      <div class="right-login">
+        <div class="card-login">
+          <h1>LOGIN</h1>
+
+          <div class="textfield">
+            <label for="usuario">Usuário:</label>
+            <input type="text" name="usuario" placeholder="Usuário"/>
+          </div>
+
+          <br/>
+
+          <div class="textfield">
+            <label for="senha">Senha:</label>
+            <input id="input" type="password" name="password" placeholder="Senha"/>
+            <i id="visible" class="fas fa-eye-slash"></i>
+            <br/>
+          </div>
+
+          <button class="btn-login">Login</button>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/5dc0840e04.js" crossorigin="anonymous"></script>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
